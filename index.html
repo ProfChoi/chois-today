@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Choi's Today | Personal Calendar</title>
+  <meta name="description" content="Windows 11을 위한 개인용 Google Calendar 일정 위젯">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #f7f9fc;
+      color: #202d48;
+      font-family: -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", "Malgun Gothic", sans-serif;
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 65px 24px;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: 750;
+      color: #2563eb;
+      margin-bottom: 65px;
+    }
+    .hero { text-align: center; }
+    .icon { font-size: 65px; margin-bottom: 12px; }
+    h1 {
+      font-size: clamp(34px, 6vw, 48px);
+      margin: 10px 0;
+      letter-spacing: -1px;
+    }
+    .subtitle {
+      font-size: 19px;
+      color: #64748b;
+      margin: 20px 0 42px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 8px 17px;
+      background: #e8f0ff;
+      color: #2563eb;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e6ebf3;
+      border-radius: 18px;
+      padding: 28px 32px;
+      margin-top: 26px;
+      box-shadow: 0 8px 25px rgba(30,60,100,.035);
+    }
+    h2 { font-size: 21px; margin-top: 0; }
+    p { color: #526079; }
+    li { margin: 8px 0; color: #526079; }
+    footer {
+      text-align: center;
+      color: #94a3b8;
+      font-size: 13px;
+      margin-top: 65px;
+    }
+    a { color: #2563eb; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="logo">Choi's Today</header>
+
+    <section class="hero">
+      <div class="icon">📅</div>
+      <span class="tag">PERSONAL CALENDAR WIDGET</span>
+      <h1>Choi's Today</h1>
+      <p class="subtitle">
+        오늘의 일정을 더 쉽고 편리하게.<br>
+        Windows 11을 위한 개인 캘린더 위젯
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>About the App</h2>
+      <p>
+        Choi's Today는 개인의 일정 관리를 위해
+        개발하는 Windows 11 데스크톱 위젯입니다.
+        Google Calendar와 연동하여 일정을
+        바탕화면에서 간편하게 확인할 수 있도록
+        설계되었습니다.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>주요 기능</h2>
+      <ul>
+        <li>Google Calendar 일정 연동</li>
+        <li>오늘의 일정 한눈에 확인</li>
+        <li>Windows 11 바탕화면에서 일정 표시</li>
+        <li>개인 일정 관리를 위한 간결한 인터페이스</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Google Calendar 연동</h2>
+      <p>
+        사용자의 Google 계정 동의를 통해
+        일정 표시에 필요한 Google Calendar
+        데이터에 접근하도록 설계되었습니다.
+        개인 사용을 목적으로 하며,
+        일반 대중에게 배포하는 앱은 아닙니다.
+      </p>
+      <p>
+        데이터 처리에 관한 자세한 사항은
+        <a href="/privacy/">개인정보처리방침</a>을
+        확인해 주세요.
+      </p>
+    </section>
+
+    <footer>
+      © 2026 Choi's Today. Personal Use Only.<br>
+      <a href="/privacy/">Privacy Policy</a>
+    </footer>
+  </main>
+</body>
+</html>
